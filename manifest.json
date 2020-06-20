@@ -1,0 +1,16 @@
+{
+  "name": "Get My GitHub",
+  "author":"Vivek Shah",
+  "description": "It shows you the details of github user.",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "contextMenus"
+  ],
+  "browser_action": {
+    "default_icon": "icon.webp"
+  }
+}
